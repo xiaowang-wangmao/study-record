@@ -57,7 +57,7 @@ any，unknown，never，void
 
 可以表示任意类型， 可以是一个集合， 里面包含了所有的类型，不会对其类型检查，跟js一个意思
 
-<img src="D:/PersonalSystem/study%20record/TypeScript.assets/image-20231009143549117.png" alt="image-20231009143549117" style="zoom:33%;" />
+<img src="./TypeScript.assets/image-20231009143549117.png" alt="image-20231009143549117" style="zoom:33%;" />
 
 #### unknown 
 
@@ -75,7 +75,7 @@ let k:unkonwn = z;
 //静态类型没有推断出来也可能是unkonwn，
 ```
 
-<img src="D:/PersonalSystem/study%20record/TypeScript.assets/image-20231009143612094.png" alt="image-20231009143612094" style="zoom:33%;" />
+<img src="./TypeScript.assets/image-20231009143612094.png" alt="image-20231009143612094" style="zoom:33%;" />
 
 但使用的时候要注意先为具体类型或者判断了再使用
 
@@ -238,9 +238,9 @@ function getAdminUser(): User {
 
 `interface` 的几乎所有功能都在 `type` 中可用，主要区别在于无法重新打开类型以添加新属性，而接口始终可扩展。
 
-![image-20231009163149918](D:/PersonalSystem/study%20record/TypeScript.assets/image-20231009163149918.png)
+![image-20231009163149918](./TypeScript.assets/image-20231009163149918.png)
 
-![image-20231009163201664](D:/PersonalSystem/study%20record/TypeScript.assets/image-20231009163201664.png)
+![image-20231009163201664](./TypeScript.assets/image-20231009163201664.png)
 
 
 
